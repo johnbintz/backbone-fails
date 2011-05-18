@@ -1,9 +1,11 @@
 require 'rails'
 
-module BackboneRails
-  class Railtie < ::Rails::Railtie
-    generators do
-      require 'backbone-rails/generators'
+module Backbone
+  module Rails
+    if ::Rails.version < "3.1"
+      require 'backbone-rails/railtie'
+    else
+      require 'backbone-rails/engine'
     end
   end
 end
