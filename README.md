@@ -30,3 +30,6 @@ You'll get these:
 The version number of the gem is the same as the version number of Backbone, plus an extra version number to handle
 minor Gem updates.
 
+## Install
+
+gem 'backbone-rails', :git => 'git://github.com/johnbintz/backbone-rails.git'
