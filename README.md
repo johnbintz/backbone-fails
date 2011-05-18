@@ -32,4 +32,4 @@ minor Gem updates.
 
 ## Install
 
-gem 'backbone-rails', :git => 'git://github.com/johnbintz/backbone-rails.git'
+    gem 'backbone-rails', :git => 'git://github.com/johnbintz/backbone-rails.git'
