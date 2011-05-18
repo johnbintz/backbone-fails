@@ -1,9 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
+require 'backbone-rails/version'
 
 Gem::Specification.new do |s|
   s.name        = "backbone-rails"
-  s.version     = File.readlines('vendor/assets/javascripts/backbone.js').first[%r{[0-9\.]{5,}}]
+  s.version     = Backbone::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["John Bintz"]
   s.email       = ["john@coswellproductions.com"]

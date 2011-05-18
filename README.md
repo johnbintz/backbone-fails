@@ -27,5 +27,6 @@ You'll get these:
     public/javascripts/backbone.js
     public/javascripts/backbone-min.js
 
-The version number of the gem is the same as the version number of Backbone.
+The version number of the gem is the same as the version number of Backbone, plus an extra version number to handle
+minor Gem updates.
 
